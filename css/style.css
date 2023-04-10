@@ -1,0 +1,78 @@
+.cabecalho {
+    background-color: #F2F2F2;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cabecalho img {
+    width: 70px;
+    height: 66px;
+}
+
+.cabecalho h1 {
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #F24405;
+}
+
+.inputPesquisar {
+    background-color:transparent;
+    border:solid 1px rgba(0, 0, 0, 0.53);
+    width: 200px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#txtPesquisa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.caixaBotao {
+    width: 50px;
+    height: 32px;
+    background-color: #F24405;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnPesquisa {
+    width: 24px;
+    height: 24px;
+}
+
+.botaoLogin, .botaoCadastro{
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: white;
+    width: 140px;
+    height: 25px;
+}
+
+.botaoLogin {
+    background-color: #F29F05;
+}
+
+.botaoCadastro {
+    background-color: #F24405;;
+}
+
+.navegacao {
+    background: #F24405;
+    height: 30px;
+}
+
