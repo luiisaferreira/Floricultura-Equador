@@ -14,7 +14,7 @@
     font-family: 'Federo';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
     color: #F24405;
@@ -87,7 +87,7 @@
 .menu a {
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -102,8 +102,36 @@
     margin-left: 80px;
 }
 
+.lista-menu a:hover {
+    color: #F24405;
+    font-style: bold;
+    background-color: white;
+    border-radius: 4px;
+}
+
 .carousel-inner > .carousel-item > img {
     width: 100%;
 }
 
+.secao-destaques {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    border: 1px solid rgba(242, 68, 5, 0.33);
+}
 
+.destaques-menu {
+    height: 30px;
+    border-bottom: 1px solid rgba(242, 68, 5, 0.33);
+}
+
+.destaques-menu p{
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color:#FC841A;
+}
