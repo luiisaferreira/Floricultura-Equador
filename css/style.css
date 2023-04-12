@@ -37,13 +37,16 @@
     text-align: center;
 }
 .caixaBotao {
-    width: 50px;
-    height: 32px;
+    width: 49px;
+    height: 30px;
     background-color: #F24405;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: solid 1px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
 }
+
 #btnPesquisa {
     width: 24px;
     height: 24px;
@@ -84,7 +87,7 @@
     display: flex;
 }
 
-.menu a {
+.lista-menu a {
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 14px;
@@ -125,6 +128,9 @@
 .destaques-menu {
     height: 30px;
     border-bottom: 1px solid rgba(242, 68, 5, 0.33);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .destaques-menu p{
@@ -132,6 +138,27 @@
     font-style: normal;
     font-size: 16px;
     line-height: 28px;
+    margin-left: 20px;
     text-transform: uppercase;
     color:#FC841A;
+}
+
+.destaques-menu  ul a{
+    text-decoration: none;
+}
+
+.lista-destaques-menu {
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.lista-destaques-menu a {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color:#FC841A;
+    padding-right: 6px;
+    border-right: 1px solid black;;
 }
