@@ -175,6 +175,15 @@
     text-decoration: underline #F24405;
 }
 
+.card {
+    width: 305px;
+    height: 250px;  
+    margin-right: 20px;
+    background: #F5E8E8;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+}
+
 .rodape {
     background-color: #F24405;
     height: 130px;
