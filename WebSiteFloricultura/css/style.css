@@ -174,3 +174,20 @@
     color: #F24405;
     text-decoration: underline #F24405;
 }
+
+.rodape {
+    background-color: #F24405;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-rodape {
+    width: 24px;
+    
+}
+
+.icones-rodape:nth-child(1), .icones-rodape:nth-child(2){
+    margin-right: 10px;
+}
