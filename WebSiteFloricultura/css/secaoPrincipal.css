@@ -1,0 +1,58 @@
+.secao-destaques, .secao-promocao {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 350px;
+    border: 1px solid rgba(242, 68, 5, 0.33);
+}
+
+.destaques-menu, .promocao-menu {
+    height: 30px;
+    border-bottom: 1px solid rgba(242, 68, 5, 0.33);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.destaques-menu p, .promocao-menu p{
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color:#FC841A;
+}
+
+.destaques-menu  ul a, .promocao-menu ul a {
+    text-decoration: none;
+}
+
+.lista-destaques-menu, .lista-promocao-menu {
+    display:inline-block;
+    margin-right: 2px;
+}
+
+.lista-destaques-menu:nth-child(3), .lista-promocao-menu:nth-child(3){
+    margin-right: 20px;
+}
+
+
+.lista-destaques-menu a, .lista-promocao-menu a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color:#FC841A;
+    padding-right: 6px;
+    border-right: 1px solid rgba(0, 0, 0, 0.44);
+   
+
+}
+
+.lista-destaques-menu a:hover, .lista-promocao-menu a:hover {
+    color: #F24405;
+    text-decoration: underline #F24405;
+}

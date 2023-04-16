@@ -1,0 +1,68 @@
+
+/* CSS do carousel principal - banner */
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+}
+
+/* CSS do carousel de cards dos produtos em destaque/promocao - secao principal */
+.card {
+    width: 250px;
+    height: 300px;  
+    margin-right: 20px;
+    background: #F5E8E8;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+}
+
+.card img {
+    overflow: hidden;
+    height: 130px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-preco {
+    margin-bottom: 5px;
+}
+
+.card-descricao {
+    text-align: justify;
+}
+
+.card-botoes {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.card-botaoCarrinho, .card-botaoComprar {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-botaoCarrinho {
+    background-color: #F27405;
+    width: 60px;
+}
+
+.card-botaoCarrinho img {
+    width: 24px;
+    height: 24px;
+    background-color: #F27405;
+}
+
+.card-botaoComprar {
+    background-color: #F24405;
+    width: 100px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}
