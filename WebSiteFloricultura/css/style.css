@@ -4,3 +4,79 @@
 @import url(carousel.css);
 @import url(secaoPrincipal.css);
 @import url(rodape.css);
+
+.modal-content {
+    background: linear-gradient(310deg, #FFD724 0%, #FAF205 2%, #F63741 14.19%, #F24405 22.18%, #FF0000 26.97%, 
+    #FF6600 52.22%, #FF692E 81%, #FF970F 93%, #FFBF00 98%, #FFEA00 100%);
+    height: 550px;
+}
+
+.modal-header {
+    border: none;
+    justify-content: right;
+}
+
+.modal-botaoFechar {
+   background-color: transparent; 
+   border: none;
+}
+
+.modal-body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+}
+
+.modal-body h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.modal-body p {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+#facaLogin {
+    color: #FCB03D;
+    font-weight: 600;
+}
+
+#facaLogin:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.formularioCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputNome, #inputEmail, #inputSenha {
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#checkboxSenha {
+    margin-top: 20px
+}
+
+#inputEnviar {
+    margin-top: 20px;
+    background-color: #F29F05;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+}

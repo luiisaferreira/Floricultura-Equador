@@ -21,6 +21,29 @@
 </head>
 
 <body>
+  <div class="modal fade" id="modalCadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal-botaoFechar" data-bs-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1>Cadastra-se</h1>
+          <p>Já possui cadastro? <a id="facaLogin">Faça seu login</a></p>
+          <form class="formularioCadastro">
+            <input type="text" id="inputNome" placeholder="Nome"/>
+            <input type="email" id="inputEmail" placeholder="Email"/>
+            <input type="password" id="inputSenha" placeholder="Senha" minlength="6"/>
+            <input type="checkbox" id="checkboxSenha"/>
+            <input type="submit" id="inputEnviar" value="Login">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Cabeçalho do site -->
   <header class="cabecalho">
     <img src="img/LogoFloricultura.png">
@@ -33,8 +56,8 @@
       </div>
     </section>
 
-    <button class="botaoLogin">Login</button>
-    <button class="botaoCadastro">Cadastra-se</button>
+    <button class="botaoLogin" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</button>
+    <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar" >Cadastra-se</button>
   </header>
   <!-- Menu de navegação global do site -->
   <nav class="navegacao">
