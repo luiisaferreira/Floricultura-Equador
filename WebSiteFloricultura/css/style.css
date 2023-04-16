@@ -210,17 +210,17 @@
     justify-content: space-evenly;
     padding-top: 10px;
 }
-.card-botaoIcone, .card-botaoComprar {
+.card-botaoCarrinho, .card-botaoComprar {
     border-radius: 10px;
     border: none;
 }
 
-.card-botaoIcone {
+.card-botaoCarrinho {
     background-color: #F27405;
     width: 60px;
 }
 
-.card-botaoIcone img {
+.card-botaoCarrinho img {
     width: 24px;
     height: 24px;
     background-color: #F27405;
@@ -228,7 +228,7 @@
 
 .card-botaoComprar {
     background-color: #F24405;
-    width: 110px;
+    width: 100px;
     height: 28px;
     font-family: 'Inter';
     font-style: normal;
