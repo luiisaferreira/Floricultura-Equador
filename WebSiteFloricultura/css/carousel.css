@@ -1,13 +1,13 @@
-
 /* CSS do carousel principal - banner */
-.carousel-inner > .carousel-item > img {
+.carousel-inner>.carousel-item>img {
     width: 100%;
+
 }
 
 /* CSS do carousel de cards dos produtos em destaque/promocao - secao principal */
 .card {
     width: 250px;
-    height: 300px;  
+    height: 300px;
     margin-right: 20px;
     background: #F5E8E8;
     border: 2px solid #F2F2F2;
@@ -40,7 +40,9 @@
     justify-content: space-evenly;
     padding-top: 10px;
 }
-.card-botaoCarrinho, .card-botaoComprar {
+
+.card-botaoCarrinho,
+.card-botaoComprar {
     border-radius: 10px;
     border: none;
 }
