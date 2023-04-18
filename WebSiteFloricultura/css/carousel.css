@@ -20,6 +20,7 @@
 .card img {
     overflow: hidden;
     height: 130px;
+    object-fit: cover;
 }
 
 .card-title {
