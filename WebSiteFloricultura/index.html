@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Importanto as fontes utilizadas  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Book+Basic" 4 />
+  <!-- Importando o bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Importando os estilos CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <title>Floricultura Equador</title>
+</head>
+
+<body>
+  <!-- Modal de cadastro do usuário -->
+  <div class="modal fade" id="modalCadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal-botaoFechar" data-bs-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1>Cadastra-se</h1>
+          <p>Já possui cadastro? <a id="facaLogin">Faça seu login</a></p>
+          <form class="formularioCadastro">
+            <input type="text" id="inputNome" placeholder="Nome" />
+            <input type="email" id="inputEmail" placeholder="Email" />
+            <input type="password" id="inputSenha" placeholder="Senha" minlength="6" />
+            <div class="caixaCheck">
+              <input type="checkbox" id="checkboxSenha" />
+              <label for="checkboxSenha">Mostrar Senha</label>
+            </div>
+            <input type="submit" id="inputEnviarCadastro" value="Cadastra-se">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal de login do usuário -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered modal-lg">
+      <div class="modal-caixaGeral">
+        <div class="modal-caixaApresentacao">
+          <div class="apresentacao-logotipo">
+            <img src="../img/LogoFloricultura.png">
+            <h1>Floricultura Equador</h1>
+          </div>
+          <div class="apresentacao-texto">
+            <h2>Bem vindo</h2>
+            <p>Faça login para continuar acessando a página</p>
+          </div>
+          <div class="apresentacao-rodape">
+            <div></div>
+            <p>www.floriculturaequador</p>
+          </div>
+        </div>
+        <div class="modal-caixaLogin">
+          <div class="login-header">
+            <h1>Login</h1>
+            <img src="../img/IconeSegurança.png">
+          </div>
+          <form class="formularioLogin">
+            <input type="email" id="loginEmail" placeholder="Email" />
+            <input type="password" id="loginSenha" placeholder="Senha" />
+            <a>Esqueceu a sua senha?</a>
+            <input type="submit" id="inputEnviarLogin" value="Login" />
+          </form>
+          <p id="textoConectarRede">Conectar pelas redes sociais</p>
+          <div class="botoesFormaLogin">
+            <button class="botaoGoogle">
+              <div><img src="img/IconeLoginGoogle.png"></div>
+              Entre com o google
+            </button>
+            <button class="botaoFacebook">
+              <div><img src="img/IconeLoginFace.png"></div>
+              Entre com o Facebook
+            </button>
+          </div>
+          <a id="textoCriarConta">Criar uma conta</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cabeçalho do site -->
+  <header class="cabecalho">
+    <section class="logo">
+      <img src="img/LogoFloricultura.png">
+      <h1>Floricultura Equador</h1>
+    </section>
+
+    <section class="inputPesquisar">
+      <input type="text" id="txtPesquisa" placeholder="Encontre seu produto" />
+      <div class="caixaBotao">
+        <img src="img/IconeLupa.png" id="btnPesquisa" alt="Pesquisar" />
+      </div>
+    </section>
+
+    <section class="botoesCabecalho">
+      <button class="botaoLogin" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</button>
+      <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar">Cadastra-se</button>
+    </section>
+  </header>
+  <!-- Menu de navegação global do site -->
+  <nav class="navegacao">
+    <ul class="menu">
+      <li class="lista-menu"><a href="#">Produtos</a></li>
+      <li class="lista-menu"><a href="#">Ocasiões</a></li>
+      <li class="lista-menu"><a href="#">Loja Online</a></li>
+      <li class="lista-menu"><a href="#">Promoções</a></li>
+    </ul>
+  </nav>
+  <!-- Carrosel principal do site (foi utilizado Bootstrap) -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="2500" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <!-- Sessão principal do site, onde irá conter os produtos em destaque e em promoção -->
+  <main>
+    <section class="secao-promocao">
+      <div class="promocao-menu">
+        <p>Produtos em Promoção</p>
+        <ul>
+          <li class="lista-promocao-menu"><a href="#">Buquês</a></li>
+          <li class="lista-promocao-menu"><a href="#">Arranjos</a></li>
+          <li class="lista-promocao-menu"><a href="#">Cestas</a></li>
+        </ul>
+      </div>
+      <!-- Carousel dos produtos promocao -->
+      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel" data-interval="0"
+        style="padding-top: 5px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+              <div class="card">
+                <img src="img/Arranjo-promocao1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$140,98</del> <br> Por: R$100,98</h4>
+                  <p class="card-descricao">Um verdadeiro arco-íris de cores para a decorar o seu cantinho preferido!
+                    As texturas das plantas desidratadas dão um toque rústico aos ambientes sem perder a delicadeza e
+                    naturalidade. !</p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/Arranjo-promocao2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$126,98</del> <br> Por: R$106,98</h4>
+                  <p class="card-descricao">Muito bom para presentear a sua pessoa amada e lembrar o quanto ela é
+                    importante, num dia comum ou numa data especial!</p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/Arranjo-promocao3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$186,98</del> <br> Por: R$150,98</h4>
+                  <p class="card-descricao">Composição de flores e folhagens TROPICAIS em pote de vidro.
+                    O arranjo poderá apresentar variação de cores e flores, de acordo com a estação e disponibilidade.
+                  </p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex   justify-content-around">
+              <div class="card">
+                <img src="img/buque 1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$250,00</del> <br> Por: R$200,00</h4>
+                  <p class="card-descricao"> Nossa criação mais diferente e exótica para presentear de forma única!
+                    Uma seleção de flores tropicais e exóticas em uma composição exclusiva com assinatura Giardini.</p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/buque 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$256,98</del> <br> Por: R$206,98</h4>
+                  <p class="card-descricao">As flores tropicais são famosas por sua beleza e cores vibrantes e vão muito
+                    além dos ornamentos.
+                    por isso criamos nosso buque especil para presentear quem se ama.</p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/buque 3.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buquê tropical</h5>
+                  <h4 class="card-preco">De: <del>R$206,98</del> <br> Por: R$146,98</h4>
+                  <p class="card-descricao"> Ideal para presentear a pessoa que se ama, com uma imensa diversidade de
+                    cores com a pra tropicalidade brasileira.</p>
+                  <div class="card-botoes">
+                    <button class="card-botaoCarrinho">
+                      <img src="img/IconeCarrinho.png">
+                    </button>
+                    <button class="card-botaoComprar">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Grid de cards, com todos os produtos -->
+    <section>
+      <div class="row">
+        <!--primeira linha com 4 cards-->
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="img/caminho de mesa 1.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Caminho de mesa tropical</h5>
+              <p class=conteudo-preco>R$300,00</p>
+              <p class="conteudo-descricao">Alegre sua casa. Mais cor e vida no ambiente com esse lindo caminho demesa
+                com flores tropicais</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="img/buque 4.jpeg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Buquê tropical</h5>
+              <p class=conteudo-preco>R$209,80</p>
+              <p class="conteudo-descricao">Exuberante buquê de flores tropicais, certamente o maior e mais colorido
+                ramalhete de flores que já viu! Um conjunto de cores,
+                formas e texturas que vai deixar a pessoa querida com grande alegria e entusiasmo.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="img/buque 5.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Buquê tropical</h5>
+              <p class=conteudo-preco>R$259,00</p>
+              <p class="conteudo-descricao">Uma Forma Linda de Presentear Alguém Muito Especial. Surpreenda a pessoa
+                amada da forma mais bonita que se existe =, presenteando.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="img/buque 6.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Buquê tropical</h5>
+              <p class=conteudo-preco>R$162,0</p>
+              <p class="conteudo-descricao">Nossa versão mais cool para um presente moderno e diferente.
+                Arranjo de flores tropicais em caixa de acrílico preta com acabamento em papel seda.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Segunda linha com 4 cards -->
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/caminho de mesa 2.png">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>caminho de mesa tropical tropical</h5>
+              <p class=conteudo-preco>R$509,00</p>
+              <p class="conteudo-descricao">Sofisticado caminho de mesa em um lindo vaso. As flores tropicais alem de
+                lindas tambem decoram o ambiente</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/caminho de mesa 3.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>caminho de mesa tropical</h5>
+              <p class=conteudo-preco>R$459,00</p>
+              <p class="conteudo-descricao">Nossa versão mais cool para um presente moderno e diferente.
+                Arranjo de flores tropicais em caixa de acrílico preta com acabamento em papel seda.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/tropiacl box.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Box tropical</h5>
+              <p class=conteudo-preco>R$309,00</p>
+              <p class="conteudo-descricao">Box Mix de Flores São tantas flores lindas que a Floricultura Paraíso,
+                sabe que você fica na dúvida na hora da escolha.
+                E para quando isso acontecer a nossa criação (box)</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/box tropical 2.jpeg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Box tropical</h5>
+              <p class=conteudo-preco>R$359,00</p>
+              <p class="conteudo-descricao">A combinação que não pode faltar. O branco com o tropical! O arranjo
+                tropical fica por conta das flores em tons de laranja, vermelho e amarelo, com um mix de folhagens bem
+                ....</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Terceira linha com 4 cards -->
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/box tropiacal 3.webp">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Box tropical</h5>
+              <p class=conteudo-preco>R$360,50</p>
+              <p class="conteudo-descricao">Arranjo de flores tropicais em caixa de acrílico preta com acabamento em
+                papel seda.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/Arranjo1.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Arranjo tropical</h5>
+              <p class=conteudo-preco>R$459,00</p>
+              <p class="conteudo-descricao">A combinação que não pode faltar. O branco com o tropical! O arranjo
+                tropical fica por conta das flores em tons de laranja, vermelho e amarelo, com um mix de folhagens bem
+                ....</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/Arranjo2.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>Arranjo tropical</h5>
+              <p class=conteudo-preco>R$2809,00</p>
+              <p class="conteudo-descricao">Um arranjo repleto de magia e encanto. Um presente mais que surpreendente. </p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gridCard">
+            <div class="gridCard-imagens">
+              <img src="../img/Arranjo3.jpg">
+            </div>
+            <div class="gridCard-conteudo">
+              <h5>arranjo tropical</h5>
+              <p class=conteudo-preco>R$495,00</p>
+              <p class="conteudo-descricao">N Uma Forma Linda de Presentear Alguém Muito Especial. Surpreenda com Buon Giorno.</p>
+              <div class="card-botoes">
+                <button class="card-botaoCarrinho">
+                  <img src="img/IconeCarrinho.png">
+                </button>
+                <button class="card-botaoComprar">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- Rodapé do website -->
+  <footer class="rodape">
+    <img class="icones-rodape" src="img/iconeWhatsapp.png">
+    <img class="icones-rodape" src="img/iconeInstagram.png">
+    <img class="icones-rodape" src="img/iconeFacebook.png">
+  </footer>
+
+
+  <!-- Importação do Script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
