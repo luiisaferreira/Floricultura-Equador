@@ -60,11 +60,22 @@
     border-radius: 20px;
 }
 
-#checkboxSenha {
-    margin-top: 20px
+.caixaCheck {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
-#inputEnviar {
+.caixaCheck label{
+    font-size: 12px;
+    margin-left: 5px;
+    color: white;
+}
+
+#inputEnviarCadastro, #inputEnviarLogin {
     margin-top: 20px;
     background-color: #F29F05;
     color: white;
@@ -72,4 +83,171 @@
     height: 30px;
     border-radius: 20px;
     font-weight: 600;
+}
+
+#inputEnviarCadastro:hover {
+    background-color: white;
+    color: #F29F05;
+}
+
+.modal-caixaGeral {
+    background: linear-gradient(310deg, #FFD724 0%, #FAF205 2%, #F63741 14.19%, #F24405 22.18%, #FF0000 26.97%, 
+    #FF6600 52.22%, #FF692E 81%, #FF970F 93%, #FFBF00 98%, #FFEA00 100%);
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.modal-caixaApresentacao {
+    width: 400px;
+    height: 550px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.apresentacao-logotipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.apresentacao-logotipo img {
+    width: 40px;
+}
+
+.apresentacao-logotipo h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.apresentacao-texto h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.apresentacao-texto p {
+    font-size: 14px;
+}
+.apresentacao-rodape {
+    display: flex;
+    margin-bottom: 10px;
+}
+.apresentacao-rodape div {
+    width: 270px;
+    border-bottom:  2px solid #FFFFFF;;
+}
+.apresentacao-rodape p {
+    font-size: 12px;
+}
+.modal-caixaLogin {
+    background-color: #F2F2F2;;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login-header h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.login-header img{
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.formularioLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginSenha, #loginEmail {
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.formularioLogin a {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#textoConectarRede {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.botoesFormaLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botaoGoogle {
+    width: 250px;
+    height: 30px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.botaoGoogle img{
+    width: 18px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.botaoFacebook {
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    background: #3B5998;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.botaoFacebook img{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#textoCriarConta {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
 }

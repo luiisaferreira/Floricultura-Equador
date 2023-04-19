@@ -22,6 +22,7 @@
 </head>
 
 <body>
+  <!-- Modal de cadastro do usuário -->
   <div class="modal fade" id="modalCadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -38,9 +39,58 @@
             <input type="text" id="inputNome" placeholder="Nome" />
             <input type="email" id="inputEmail" placeholder="Email" />
             <input type="password" id="inputSenha" placeholder="Senha" minlength="6" />
-            <input type="checkbox" id="checkboxSenha" />
-            <input type="submit" id="inputEnviar" value="Login">
+            <div class="caixaCheck">
+              <input type="checkbox" id="checkboxSenha" />
+              <label for="checkboxSenha">Mostrar Senha</label>
+            </div>
+            <input type="submit" id="inputEnviarCadastro" value="Cadastra-se">
           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal de login do usuário -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered modal-lg">
+      <div class="modal-caixaGeral">
+        <div class="modal-caixaApresentacao">
+          <div class="apresentacao-logotipo">
+            <img src="img/LogoFloricultura.png">
+            <h1>Floricultura Equador</h1>
+          </div> 
+          <div class="apresentacao-texto">
+            <h2>Bem vindo</h2>
+            <p>Faça login para continuar acessando a página</p>
+          </div>
+          <div class="apresentacao-rodape">
+            <div></div>
+            <p>www.floriculturaequador</p>
+          </div>
+        </div>
+        <div class="modal-caixaLogin">
+          <div class="login-header">
+            <h1>Login</h1>
+            <img src="img/IconeSegurança.png">
+          </div>
+          <form class="formularioLogin">
+            <input type="email" id="loginEmail" placeholder="Email"/>
+            <input type="password" id="loginSenha" placeholder="Senha"/>
+            <a>Esqueceu a sua senha?</a>
+            <input type="submit" id="inputEnviarLogin" value="Login"/>
+          </form>
+          <p id="textoConectarRede">Conectar pelas redes sociais</p>
+          <div class="botoesFormaLogin">
+            <button class="botaoGoogle">
+              <div><img src="img/IconeLoginGoogle.png"></div>
+              Entre com o google
+            </button>
+            <button class="botaoFacebook">
+              <div><img src="img/IconeLoginFace.png"></div>
+              Entre com o Facebook
+            </button>
+          </div>
+          <a id="textoCriarConta">Criar uma conta</a>
+          
         </div>
       </div>
     </div>
@@ -231,6 +281,8 @@
       </div>
     </section>
 
+    
+  </main>
     <!-- Rodapé do website -->
     <footer class="rodape">
       <img class="icones-rodape" src="img/iconeWhatsapp.png">
