@@ -16,3 +16,7 @@
 .icones-rodape:nth-child(1), .icones-rodape:nth-child(2){
     margin-right: 10px;
 }
+
+.icones-rodape:hover {
+    cursor: pointer;
+}

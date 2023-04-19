@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.caixaBotao:hover {
+    opacity:0.5;
+}
+
 #btnPesquisa {
     width: 24px;
     height: 24px;
@@ -76,6 +80,16 @@
     margin-right: 30px;
 }
 
+.botaoLogin:hover {
+    color:#F29F05;
+    background-color: white;
+}
+
 .botaoCadastro {
-    background-color: #F24405;;
+    background-color: #F24405;
+}
+
+.botaoCadastro:hover {
+    color: #F24405;
+    background-color: white;
 }

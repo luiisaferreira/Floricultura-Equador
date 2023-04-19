@@ -59,6 +59,9 @@
     background-color: #F27405;
 }
 
+.card-botaoCarrinho:hover {
+    opacity: 0.8;
+}
 .card-botaoComprar {
     background-color: #F24405;
     width: 100px;
@@ -68,4 +71,9 @@
     font-size: 12px;
     text-transform: uppercase;
     color: white;
+}
+
+.card-botaoComprar:hover {
+    color:#F24405;
+    background-color: white;
 }

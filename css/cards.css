@@ -7,7 +7,7 @@
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;justify-content: center;margin-top: 30px;}
+  .row {margin: 0 -5px;justify-content: center;margin-bottom: 30px;width: 100%;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -66,4 +66,8 @@
       display: block;
       margin-bottom: 20px;
     }
+  }
+
+  .row:nth-child(1) {
+    margin-top: 30px
   }
