@@ -85,6 +85,11 @@
     font-weight: 600;
 }
 
+#inputEnviarLogin:hover{
+    background-color: white;
+    color: #F29F05;
+}
+
 #inputEnviarCadastro:hover {
     background-color: white;
     color: #F29F05;
@@ -94,6 +99,7 @@
     background: linear-gradient(310deg, #FFD724 0%, #FAF205 2%, #F63741 14.19%, #F24405 22.18%, #FF0000 26.97%, 
     #FF6600 52.22%, #FF692E 81%, #FF970F 93%, #FFBF00 98%, #FFEA00 100%);
     display: flex;
+    flex-direction: row;
     font-family: 'Montserrat';
     font-style: normal;
 }
@@ -189,9 +195,14 @@
     border-radius: 20px;
 }
 
-.formularioLogin a {
+#esqueceuSenha {
     font-size: 12px;
     margin-top: 10px;
+}
+
+#esqueceuSenha:hover {
+    color:#FF6600;
+    cursor:pointer;
 }
 
 #textoConectarRede {
@@ -218,6 +229,11 @@
     font-size: 12px;
     font-weight: 600;
 }
+
+.botaoGoogle:hover {
+    opacity: 0.8;
+}
+
 .botaoGoogle img{
     width: 18px;
     margin-left: 10px;
@@ -239,6 +255,10 @@
     color: white;
 }
 
+.botaoFacebook:hover {
+    opacity: 0.8;
+}
+
 .botaoFacebook img{
     width: 20px;
     margin-left: 10px;
@@ -250,4 +270,9 @@
     font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
+}
+
+#textoCriarConta:hover {
+    color:#FF6600;
+    cursor:pointer;
 }
