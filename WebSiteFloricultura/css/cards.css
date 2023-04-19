@@ -1,1 +1,69 @@
-/* Arquivos de estilização dos cards */
+.column {
+    float: left;
+    width: 300px;
+    padding: 0 10px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;justify-content: center;margin-top: 30px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .gridCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #F5E8E8;;
+    height: 300px;
+  }
+  
+  .gridCard-imagens {
+    width: 280px;
+    height: 150px;
+  }
+
+  .gridCard-imagens img {
+    width:280px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .gridCard-conteudo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .gridCard-conteudo h5 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .conteudo-preco {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 800;
+  }
+
+  .conteudo-descricao {
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 4px;
+    text-align: justify;
+  }
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
