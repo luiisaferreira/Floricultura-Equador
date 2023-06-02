@@ -96,59 +96,47 @@
   </div>
 
   <!-- Cabeçalho do site -->
-  <header class="cabecalho">
-    <section class="logo">
-      <img src="img/LogoFloricultura.png">
-      <h1>Floricultura Equador</h1>
-    </section>
-
-    <section class="inputPesquisar">
-      <input type="text" id="txtPesquisa" placeholder="Encontre seu produto" />
-      <div class="caixaBotao">
-        <img src="img/IconeLupa.png" id="btnPesquisa" alt="Pesquisar" />
-      </div>
-    </section>
-
-    <section class="botoesCabecalho">
-      <button class="botaoLogin" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Login</button>
-      <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar">Cadastre-se</button>
-    </section>
+  <header>
+    <div class="caixa-info">
+      <p>Atendimento de segunda a sexta</p>
+    </div>
+    <div class="cabecalho">
+      <section class="logo">
+        <img src="img/LogoFloricultura.png">
+        <h1>Floricultura Equador</h1>
+      </section>
+  
+      <section class="inputPesquisar">
+        <input type="text" id="txtPesquisa" placeholder="Encontre seu produto" />
+        <div class="caixaBotao">
+          <img src="img/IconeLupa.png" id="btnPesquisa" alt="Pesquisar" />
+        </div>
+      </section>
+  
+      <section class="botoesCabecalho">
+        <button class="botaoLogin" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Login</button>
+        <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar">Cadastre-se</button>
+      </section>
+    </div>
   </header>
   <!-- Menu de navegação global do site -->
   <nav class="navegacao">
     <ul class="menu">
       <li class="lista-menu"><a href="#">Produtos</a></li>
       <li class="lista-menu"><a href="#">Ocasiões</a></li>
+      <li class="lista-menu"><a href="#">Cestas</a></li>
       <li class="lista-menu"><a href="#">Promoções</a></li>
     </ul>
   </nav>
   <!-- Carrosel principal do site (foi utilizado Bootstrap) -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="2500" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
+  <section class="sessao-banner">
+    <div>
+      <img src="img/imagemBannerPrincipal.png">
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/1.jpg" class="d-block w-100" alt="">
-      </div>
-      <div class="carousel-item">
-        <img src="img/2.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/3.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/4.jpg" class="d-block w-100" alt="...">
-      </div>
+
+    <div class="linha-banner">
     </div>
-  </div>
+  </section>
   <!-- Sessão principal do site, onde irá conter os produtos em destaque e em promoção -->
   <main>
     <section class="secao-promocao">

@@ -1,10 +1,4 @@
-/* CSS do carousel principal - banner */
-.carousel-inner>.carousel-item>img {
-    width: 100%;
-
-}
-
-/* CSS do carousel de cards dos produtos em destaque/promocao - secao principal */
+/* CSS do carousel de cards dos produtos em promocao - secao principal */
 .card {
     width: 250px;
     height: 300px;

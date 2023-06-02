@@ -1,5 +1,19 @@
+.caixa-info {
+    background-color: rgba(255, 119, 0, 0.75);
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.caixa-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+}
+
 .cabecalho {
-    background-color: #F2F2F2;
+    background-color: white;
     height: 90px;
     display: flex;
     align-items: center;
@@ -76,13 +90,13 @@
 }
 
 .botaoLogin {
-    background-color: #F29F05;
+    background-color: #F27405;
     margin-right: 30px;
 }
 
 .botaoLogin:hover {
-    color:#F29F05;
-    background-color: white;
+    color: white;
+    background-color:#f27405b5;
 }
 
 .botaoCadastro {
@@ -90,6 +104,7 @@
 }
 
 .botaoCadastro:hover {
-    color: #F24405;
-    background-color: white;
+    color: white;
+    background-color:   #f24405bf;
+
 }
