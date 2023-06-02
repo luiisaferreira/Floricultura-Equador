@@ -1,9 +1,10 @@
+/*CSS DA SEÇÃO INFORMAÇÕES NO HEADER*/
 .caixa-info {
     background-color: rgba(255, 119, 0, 0.75);
     height: 30px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 .caixa-info {
@@ -12,6 +13,25 @@
     font-size: 12px;
 }
 
+.caixa-info .textoAtendimento {
+    margin-left: 30px;
+}
+
+.informacoes{
+  display: flex;
+ }
+ 
+.informacoes div {
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+}
+ 
+.informacoes div p{
+   margin-left: 4px;
+ }
+ 
+/*CSS DA SECÃO CABECALHO NO HEADER*/
 .cabecalho {
     background-color: white;
     height: 90px;
@@ -46,6 +66,7 @@
     height: 32px;
     display: flex;
     justify-content: space-between;
+    padding-left: 10px;
 }
 
 #txtPesquisa {
@@ -53,7 +74,6 @@
     font-style: normal;
     font-size: 12px;
     line-height: 20px;
-    text-align: center;
 }
 .caixaBotao {
     width: 49px;
