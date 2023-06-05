@@ -1,5 +1,65 @@
+.secao-produtoDestaque {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.destaques {
+    display: flex;
+    width: 745px;
+    height: 235px;
+}
+
+#descricaoProdutoDestaque {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#textoDisponivel {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: bold;
+}
+
+.botoesDestaque {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.destaqueBotao-comprar {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 25px;
+    background-color: #F27405;
+}
+
+.destaqueBotao-carrinho {
+    margin-left: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F24405;
+    width: 110px;
+    height: 25px;
+}
+
+
+/*Seção carousel de promoção*/
 .secao-promocao {
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -55,4 +115,37 @@
 .lista-promocao-menu a:hover {
     color: #F24405;
     text-decoration: underline #F24405;
+}
+
+/*Secao Todos os produtos*/
+.secao-todosProdutos {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.secao-todosProdutos p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    color:  #FD7600;
+    margin-left: 15px;
+}
+
+.secao-todosProdutos #linhaTexto {
+    width: 350px;
+    height: 0px;
+    border: 1px solid #F27405;
+    border-radius: 4px;
+}
+
+.produtosImagens {
+    margin-top: 20px;
+}
+
+.produtosImagens img {
+    margin-right: 10px;
+    cursor: pointer;
 }

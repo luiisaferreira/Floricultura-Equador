@@ -42,6 +42,7 @@
 .cabecalho img {
     width: 70px;
     height: 66px;
+    cursor: pointer;
 }
 
 .cabecalho h1 {
@@ -53,6 +54,7 @@
     text-transform: uppercase;
     color: #F24405;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .logo {
