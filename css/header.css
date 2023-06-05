@@ -1,7 +1,7 @@
 /*CSS DA SEÇÃO INFORMAÇÕES NO HEADER*/
 .caixa-info {
     background-color: rgba(255, 119, 0, 0.75);
-    height: 30px;
+    height: 47px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,13 +19,51 @@
 
 .informacoes{
   display: flex;
+  align-items: center;
  }
  
- .informacoes img {
-    margin-right: 25px;
+ .imagensBandeiras {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .imagensBandeiras img {
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
  }
 
- 
+ .imagensBandeiras img:nth-child(2) {
+    margin-right: 40px;
+ }
+
+ .botaoTextos {
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 50px;
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .botaoTextos button {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800px;
+ }
+
+.iconeCarrinhoHeader {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
 /*CSS DA SECÃO CABECALHO NO HEADER*/
 .cabecalho {
     background-color: white;

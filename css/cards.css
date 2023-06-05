@@ -2,6 +2,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     display: flex;
+    justify-content: center;
 }
 .card {
     width: 250px;
