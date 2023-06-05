@@ -1,8 +1,9 @@
 /* Importando todos os css */
 @import url(header.css);
 @import url(navegacao.css);
-@import url(carousel.css);
+@import url(cards.css);
 @import url(secaoPrincipal.css);
 @import url(rodape.css);
 @import url(modal.css);
 @import url(secaoBanner.css);
+@import url(darkMode.css);

@@ -1,7 +1,11 @@
-/* CSS do carousel de cards dos produtos em promocao - secao principal */
+.cardsPromocao {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
 .card {
     width: 250px;
-    height: 300px;
+    height: 450px;
     margin-right: 20px;
     background: #F5E8E8;
     border: 2px solid #F2F2F2;
@@ -11,15 +15,20 @@
     font-size: 12px;
 }
 
-.card img {
-    overflow: hidden;
-    height: 130px;
-    object-fit: cover;
+.card:nth-child(1) {
+    margin-left: 10px;
+}
+
+.infoProdutos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .card-title {
-    text-transform: uppercase;
+    margin-top: 20px;
     text-align: center;
+    font-weight: 400px;
 }
 
 .card-preco {
@@ -28,12 +37,12 @@
 
 .card-descricao {
     text-align: justify;
+    height: 100px;
 }
 
 .card-botoes {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 10px;
 }
 
 .card-botaoCarrinho,

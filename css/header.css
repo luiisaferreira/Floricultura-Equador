@@ -21,15 +21,10 @@
   display: flex;
  }
  
-.informacoes div {
-   display: flex;
-   align-items: center;
-   margin-right: 30px;
-}
- 
-.informacoes div p{
-   margin-left: 4px;
+ .informacoes img {
+    margin-right: 25px;
  }
+
  
 /*CSS DA SECÃO CABECALHO NO HEADER*/
 .cabecalho {
