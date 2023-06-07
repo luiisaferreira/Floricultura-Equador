@@ -1,5 +1,9 @@
-.banner-img img{
+.banner-img{
     width: 100%;
+    height: 347.64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/imagemBannerPrincipal.png");
 }
 
 .linha-banner {

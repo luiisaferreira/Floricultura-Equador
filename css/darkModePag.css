@@ -1,0 +1,123 @@
+body.dark {
+    background-color: #151515;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.caixa-info.dark {
+    background-color: #373737;
+    color:#ffffff;
+    transition: 1s;
+}
+
+
+.cabecalho.dark {
+    background-color: #151515;
+    transition: 1s;
+    color: #ffffff;
+}
+
+.logo h1.dark {
+    color: #ffffff;
+}
+
+#txtPesquisa.dark {
+    color: #ffffff;
+}
+
+.caixaBotao.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botaoLogin.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    transition: 1s;
+}
+
+.botaoCadastro.dark {
+    background-color: #5C5C5C;;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.navegacao.dark {
+    background-color: #373737;
+    transition: 1s;
+}
+
+.linha-banner.dark {
+    background-color:  #373737;
+    transition: 1s;
+}
+
+.banner-img.dark {
+    background-image: url(../img/imgBannerDark.png);
+    transition: 1s;
+}
+
+.destaqueBotao-comprar.dark {
+    background-color: #000000;
+    transition: 1s;
+}
+
+.destaqueBotao-carrinho.dark {
+    background-color: #4A4A4A;
+    transition: 1s;
+}
+
+.secao-promocao.dark {
+    border: 1px solid #3B3B3B;
+    transition: 1s;
+}
+
+.promocao-menu.dark {
+    border-bottom: 1px solid #3B3B3B;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.promocao-menu p.dark {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.lista-promocao-menu a.dark {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.card.dark {
+    background-color: #272727;
+    border: 2px solid #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.card-botaoCarrinho.dark {
+    background-color: #4A4A4A;
+    transition: 1s;
+}
+
+.card-botaoCarrinho img.dark {
+    background-color: #4A4A4A;
+    transition: 1s;
+}
+
+.card-botaoComprar.dark {
+    background-color: #000000;
+    transition: 1s;
+}
+
+.secao-todosProdutos p.dark  {
+    color: #ffffff;
+}
+
+#linhaTexto.dark {
+    border: 4px solid #454545;
+}
+
+.rodape.dark {
+    background-color: #373737;
+}
+

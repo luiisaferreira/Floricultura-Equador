@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: 1s;
 }
 
 .caixa-info {
@@ -71,6 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: 1s;
 }
 .cabecalho img {
     width: 70px;
@@ -88,6 +90,7 @@
     color: #F24405;
     margin-left: 30px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .logo {
@@ -109,6 +112,7 @@
     font-style: normal;
     font-size: 12px;
     line-height: 20px;
+    transition: 1s;
 }
 .caixaBotao {
     width: 49px;
@@ -142,6 +146,7 @@
     color: white;
     width: 140px;
     height: 25px;
+    transition: 1s;
 }
 
 .botaoLogin {
