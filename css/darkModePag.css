@@ -115,7 +115,7 @@ body.dark {
 }
 
 #linhaTexto.dark {
-    border: 4px solid #454545;
+    border: 1px solid #454545;
 }
 
 .rodape.dark {
@@ -132,4 +132,38 @@ body.dark {
 
 .iconeInstagram p.dark {
     color: #ffffff;
+}
+
+/*MODAL CADASTRO MODO DARK*/
+.modal-content.dark {
+    background: linear-gradient(310deg, #FFFFFF 0%,
+    #B0B0B0 2%, #3D3D3D 14.19%, #6D6D6D 22.18%, #4A4A4A 26.62%, rgba(70, 70, 70, 0.62) 52.22%,
+    #9D9D9D 81%, #D0D0D0 93%, #EBEBEB 98%, #FFFFFF 100%);
+}
+
+.modal-body p.dark {
+    color:#000000;
+}
+
+#facaLogin.dark {
+    color: #ffffff;
+}
+
+#inputEnviarCadastro.dark {
+    background-color: #272727;
+}
+/*MODAL LOGIN MODO DARK*/
+.modal-caixaGeral.dark {
+    background: linear-gradient(310deg, #FFFFFF 0%, #B8B8B8 2%, #969696 6%, #535353 12%, #656565 22%,
+    #535353 50.7%, #828282 79.4%, #999999 92.57%, #D9D9D9 98%, #FFFFFF 100%);
+    color: #000000;
+}
+
+.modal-caixaLogin.dark {
+    background-color: #F2F2F2;
+}
+
+#inputEnviarLogin.dark {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

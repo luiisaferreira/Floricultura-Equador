@@ -81,4 +81,23 @@ darkMode.addEventListener('click', () => {
     whats.classList.toggle('dark')
     instagram.classList.toggle('dark')
 
+    /*Modo dark modal cadastro*/
+    const modal_content = document.querySelector('.modal-content')
+    const modal_body = document.querySelector('.modal-body p')
+    const facaLogin = document.querySelector('#facaLogin')
+    const enviarCadastro = document.querySelector('#inputEnviarCadastro')
+
+    modal_content.classList.toggle('dark')
+    modal_body.classList.toggle('dark')
+    facaLogin.classList.toggle('dark')
+    enviarCadastro.classList.toggle('dark')
+    
+     /*Modo dark modal login*/
+     const caixaGeral = document.querySelector('.modal-caixaGeral')
+     const caixaLogin = document.querySelector('.modal-caixaLogin')
+     const enviarLogin = document.querySelector('#inputEnviarLogin')
+ 
+     enviarLogin.classList.toggle('dark')
+     caixaLogin.classList.toggle('dark')
+     caixaGeral.classList.toggle('dark')
 })
