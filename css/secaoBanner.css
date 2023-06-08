@@ -4,9 +4,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../img/imagemBannerPrincipal.png");
+    transition: 1s;
 }
 
 .linha-banner {
     background-color: #F24405;
     height: 10px;
+    transition: 1s;
 }

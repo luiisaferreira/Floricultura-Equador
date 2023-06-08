@@ -27,6 +27,7 @@ body.dark {
 
 .caixaBotao.dark {
     background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
 }
 
 .botaoLogin.dark {
@@ -121,3 +122,14 @@ body.dark {
     background-color: #373737;
 }
 
+.iconeTelefone p.dark {
+    color: #ffffff;
+}
+
+.iconeWhats p.dark {
+    color: #ffffff;
+}
+
+.iconeInstagram p.dark {
+    color: #ffffff;
+}

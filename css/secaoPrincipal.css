@@ -45,6 +45,7 @@
     width: 250px;
     height: 25px;
     background-color: #F27405;
+    transition: 1s;
 }
 
 .destaqueBotao-carrinho {
@@ -54,6 +55,7 @@
     background-color: #F24405;
     width: 110px;
     height: 25px;
+    transition: 1s;
 }
 
 

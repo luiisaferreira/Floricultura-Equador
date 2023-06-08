@@ -3,4 +3,42 @@
     bottom: 0;
     width: 100%;
     height: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconeTelefone, .iconeWhats, .iconeInstagram {
+    display: flex;
+    align-items: center;
+}
+
+.iconeTelefone, .iconeWhats, .iconeInstagram {
+    margin-right: 30px;
+}
+
+.iconeTelefone img, .iconeWhats img, .iconeInstagram img {
+    width: 20px;
+    height: 20 px;
+}
+
+.iconeTelefone p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.iconeInstagram p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.iconeWhats p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 8px;
 }
