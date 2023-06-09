@@ -1,3 +1,5 @@
+/*MODO DARK PÁGINA INDEX/INICIAL*/
+
 body.dark {
     background-color: #151515;
     color: #ffffff;
@@ -167,3 +169,4 @@ body.dark {
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
