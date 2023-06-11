@@ -44,12 +44,12 @@
     text-decoration: underline;
 }
 
-.diaNamorados, .secao-casamento, .secao-aniversario {
+.diaNamorados, .secao-casamento, .secao-aniversario, .secao-arranjo, .secao-buque, .secao-buqueNoiva{
     float: right;
     margin-top: 90px;
 }
 
-.diaNamorados .titulo, .secao-casamento .titulo,  .secao-aniversario .titulo {
+.titulo {
     display: flex;
     flex-direction:column;
     align-items: flex-end;
