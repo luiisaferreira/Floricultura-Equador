@@ -49,6 +49,10 @@
     margin-top: 90px;
 }
 
+.secao-aniversario, .secao-buqueNoiva {
+    margin-bottom: 50px;
+}
+
 .titulo {
     display: flex;
     flex-direction:column;

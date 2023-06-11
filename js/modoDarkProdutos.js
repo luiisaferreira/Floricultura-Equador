@@ -19,7 +19,11 @@ darkMode.addEventListener('click', () => {
     const botaoCadastro = document.querySelector('.botaoCadastro')
     const navegacao = document.querySelector('.navegacao')
     const listaMenuActive = document.querySelector('.listaMenuDark')
+    const lista_menuA = document.querySelectorAll('.lista-menu .listaHover')
 
+    lista_menuA.forEach(e=> {
+        e.classList.toggle('dark')
+    })
     listaMenuActive.classList.toggle('dark')
     body.classList.toggle('dark')
     caixa_info.classList.toggle('dark')
@@ -76,4 +80,15 @@ darkMode.addEventListener('click', () => {
     linhaTexto_ocasioes.forEach(e=> {
         e.classList.toggle('dark')
     })
+
+    /*Modo dark do rodapé*/
+    const rodape = document.querySelector('.rodape')
+    const telefone = document.querySelector('.iconeTelefone p')
+    const whats = document.querySelector('.iconeWhats p')
+    const instagram = document.querySelector('.iconeInstagram p')
+
+    rodape.classList.toggle('dark')
+    telefone.classList.toggle('dark')
+    whats.classList.toggle('dark')
+    instagram.classList.toggle('dark')
 })
