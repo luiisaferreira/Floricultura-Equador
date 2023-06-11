@@ -5,6 +5,7 @@
     height: 340px;
     background-color: #F5E8E8;
     float: left;
+    transition: 1s;
 }
 
 .menuDepartamento div {
@@ -13,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1s;
     
 }
 
@@ -22,6 +24,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #B43000;
+    transition: 1s;
 }
 
 .listaMenu-departamento {
@@ -34,31 +37,33 @@
     font-style: normal;
     font-size: 16px;
     color: #B43000;
+    transition: 1s;
 }
 
 .listaMenu-departamento a:hover {
     text-decoration: underline;
 }
 
-.diaNamorados {
+.diaNamorados, .secao-casamento, .secao-aniversario {
     float: right;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
-.diaNamorados .titulo {
+.diaNamorados .titulo, .secao-casamento .titulo,  .secao-aniversario .titulo {
     display: flex;
     flex-direction:column;
     align-items: flex-end;
     margin-right: 20px;
 }
 
-.diaNamorados p{
+.titulo p{
     font-family: 'Gentium Book Basic';
     font-style: normal;
     font-size: 18px;
     color: #FD7600;
     text-align: right;
     text-transform: uppercase;
+    transition: 1s;
 }
 
 .linhaTexto-ocasioes {
@@ -66,6 +71,20 @@
     height: 0px;
     border: 1px solid #F27405;
     border-radius: 4px;
+    transition: 1s;
 }
 
+.imagensGrid{
+    margin-top: 10px;
+}
+.gridLinha {
+    display: flex;
+    margin-top: 10px;
+    
+}
 
+.gridColuna img {
+    width: 270px;
+    height: 200px;
+    margin-right: 20px;
+}

@@ -100,4 +100,5 @@ darkMode.addEventListener('click', () => {
      enviarLogin.classList.toggle('dark')
      caixaLogin.classList.toggle('dark')
      caixaGeral.classList.toggle('dark')
+
 })

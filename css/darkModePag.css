@@ -170,3 +170,26 @@ body.dark {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/*PÁGINA DE OCASIÕES MODO DARK*/
+.menuDepartamento.dark {
+    background-color: #373737;
+}
+
+.menuDepartamento div.dark {
+    background-color: #272727;
+}
+
+.menuDepartamento div p.dark {
+    color: #ffffff;
+}
+
+.listaMenu-departamento a.dark {
+    color: #ffffff;
+}
+
+.titulo p.dark {
+    color: #ffffff;
+}
+.linhaTexto-ocasioes.dark {
+    border: 1px solid #ffffff;
+} 

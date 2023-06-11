@@ -48,4 +48,30 @@ darkMode.addEventListener('click', () => {
     enviarLogin.classList.toggle('dark')
     caixaLogin.classList.toggle('dark')
     caixaGeral.classList.toggle('dark')
+
+    /*Modo dark no menu Departamento*/
+
+    const menuDepartamento = document.querySelector('.menuDepartamento')
+    const divMenuDepartamento = document.querySelector('.menuDepartamento div')
+    const tituloMenuDepartamento = document.querySelector('.menuDepartamento div p')
+    const listaMenu = document.querySelectorAll('.listaMenu-departamento a')
+
+    divMenuDepartamento.classList.toggle('dark')
+    menuDepartamento.classList.toggle('dark')
+    tituloMenuDepartamento.classList.toggle('dark')
+    listaMenu.forEach(e=> {
+        e.classList.toggle('dark')
+    })
+
+    /*Modo dark produtos*/
+    const titulo = document.querySelectorAll('.titulo p')
+    const linhaTexto_ocasioes = document.querySelectorAll('.linhaTexto-ocasioes')
+
+    titulo.forEach(e=> {
+        e.classList.toggle('dark')
+    })
+    
+    linhaTexto_ocasioes.forEach(e=> {
+        e.classList.toggle('dark')
+    })
 })
