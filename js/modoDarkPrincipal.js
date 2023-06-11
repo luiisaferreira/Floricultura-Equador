@@ -17,10 +17,14 @@ darkMode.addEventListener('click', () => {
     const caixaBotao = document.querySelector('.caixaBotao')
     const botaoLogin = document.querySelector('.botaoLogin')
     const botaoCadastro = document.querySelector('.botaoCadastro')
-    const navegacao = document.querySelector('.navegacao')
+    const navegacao = document.querySelector('.navegacao')  
+    const lista_menuA = document.querySelectorAll('.lista-menu a')
     const linhaBanner = document.querySelector('.linha-banner')
     const bannerImg = document.querySelector('.banner-img')
 
+    lista_menuA.forEach(e=> {
+        e.classList.toggle('dark')
+    })
     body.classList.toggle('dark')
     caixa_info.classList.toggle('dark')
     cabecalho.classList.toggle('dark')

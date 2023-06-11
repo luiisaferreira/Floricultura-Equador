@@ -49,6 +49,20 @@ body.dark {
     transition: 1s;
 }
 
+.lista-menu a:hover.dark {
+    color: #000000;
+}
+
+.listaMenuDark.dark {
+    color:#000000 !important;
+}
+
+.listaMenuLight {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color:#F24405 !important;
+}
+
 .linha-banner.dark {
     background-color:  #373737;
     transition: 1s;

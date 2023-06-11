@@ -18,7 +18,9 @@ darkMode.addEventListener('click', () => {
     const botaoLogin = document.querySelector('.botaoLogin')
     const botaoCadastro = document.querySelector('.botaoCadastro')
     const navegacao = document.querySelector('.navegacao')
+    const listaMenuActive = document.querySelector('.listaMenuDark')
 
+    listaMenuActive.classList.toggle('dark')
     body.classList.toggle('dark')
     caixa_info.classList.toggle('dark')
     cabecalho.classList.toggle('dark')
