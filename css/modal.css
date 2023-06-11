@@ -1,4 +1,8 @@
 /* MODAL DE CADASTRO */
+body { 
+    padding-right: 0 !important
+}
+
 .modal-content {
     background: linear-gradient(310deg, #FFD724 0%, #FAF205 2%, #F63741 14.19%, #F24405 22.18%, #FF0000 26.97%, 
     #FF6600 52.22%, #FF692E 81%, #FF970F 93%, #FFBF00 98%, #FFEA00 100%);

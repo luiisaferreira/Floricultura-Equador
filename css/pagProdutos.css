@@ -44,12 +44,15 @@
     text-decoration: underline;
 }
 
-.diaNamorados, .secao-casamento, .secao-aniversario, .secao-arranjo, .secao-buque, .secao-buqueNoiva{
+.diaNamorados, .secao-casamento, .secao-aniversario, 
+.secao-arranjo, .secao-buque, .secao-buqueNoiva, 
+.secao-cestas, .secao-complementos, .secao-coroaFunibre,
+.secao-decoracao, .secao-ramalhetes, .secao-box{
     float: right;
     margin-top: 90px;
 }
 
-.secao-aniversario, .secao-buqueNoiva {
+.secao-aniversario, .secao-buqueNoiva, .secao-coroaFunibre, .secao-box{
     margin-bottom: 50px;
 }
 
