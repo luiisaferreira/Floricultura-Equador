@@ -49,6 +49,10 @@ body.dark {
     transition: 1s;
 }
 
+.lista-menu a:hover.dark {
+    color: #000000;
+}
+
 .lista-menu .listaHover:hover.dark {
     color: #000000 !important;
 }
