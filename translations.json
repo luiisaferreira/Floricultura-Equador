@@ -6,7 +6,28 @@
       "menu_ocasioes": "Ocasiões",
       "menu_cestas": "Cestas",
       "menu_promocoes": "Promoções",
-      "menu_box": "Box"
+      "menu_box": "Box",
+      "descricaoProdutoDestaque": "Bouquet de flores tropicais com acabamento em papel de seda e laço de cetim. Nossa criação mais diferente e exótica para presentear de forma única! Uma seleção de flores tropicais e exóticas em uma composição exclusiva com assinatura Giardini. Aproximadamente 40 hastes de flores e folhagens.",
+      "textoDisponivel": "Disponibilidade: Em estoque",
+      "textoProdutoPromocao": "Produtos em promoção",
+      "menu-promocao-buque": "Buquês",
+      "menu-promocao-arranjos": "Arranjos",
+      "menu-promocao-cestas": "Cestas",
+      "titulo-card1": "Cesta de Café da manhã para o seu Amor",
+      "descricao-card1": "A Cesta de Café da Manhã Coração, além de surpreender, forma uma refeição completa para quem você ama. Isso porque ela traz bolo, achocolatado, suco, café solúvel, cappuccino, pães, biscoitos, frios, frutas, cream cheese e chocolates.",
+
+      "titulo-card2": "Buquê de 8 Rosas Champagne e Chocolate",
+      "descricao-card2": "Simpatia, admiração e fidelidade, esses são os significados que as rosas na cor champanhe trazem. Esse buquê, que vem acompanhado por uma caixa de bombons, é perfeito para oferecer à pessoa amada nos momentos mais especiais.",
+
+      "titulo-card3": "Buquê de 6 Rosas Vermelhas e Chocolate",
+      "descricao-card3": "Chocolates e Flores são presentes que nunca saem de moda. Este lindo buquê de talo médio é confeccionado com 6 rosas vermelhas envolvidas em Ruscus, Tango e acabamento em ráfia; Acompanha também deliciosos bombons Ferrero Rocher ou similares.",
+
+      "titulo-card4": "Cesta com Rosas e Margaridas Amarelas e Brancas",
+      "descricao-card4": "Presentear alguém importante com um cesta de rosas e margaridas amarelas e brancas, como essa, faz com que você se mostre presente em todos os momentos e datas importantes, mesmo morando distante.",
+
+      "titulo-card5": "Cesta de Café com Chocolate e Flores Luxo",
+      "descricao-cad5": "Uma deliciosa cesta de café da manhã incluindo diversas guloseimas. São variedades de chocolate, bombons Sonhos de Valsa, chocolates em barra e um arranjo delicado de flores.",
+      "textoTodosPrdutos": "Todos os produtos"
     },
     "en-us": {
       "textoAtendimento": "Service from Monday to Friday",
@@ -15,6 +36,29 @@
       "menu_ocasioes": "Occasions",
       "menu_cestas": "Baskets",
       "menu_promocoes": "Promotions",
-      "menu_box": "Box"
+      "menu_box": "Box",
+      "descricaoProdutoDestaque": "Bouquet of tropical flowers finished in tissue paper and satin bow. Our most different and exotic creation to give as a unique gift! A selection of tropical and exotic flowers in an exclusive composition with Giardini's signature. Approximately 40 stems of flowers and foliage.",
+      "textoDisponivel": "Availability: In stock",
+      "textoProdutoPromocao": "Sale Products",
+      "menu-promocao-buque": "Bouquets",
+      "menu-promocao-arranjos": "Arrangements",
+      "menu-promocao-cestas": "Baskets",
+      "titulo-card1": "Passionate Heart Breakfast Basket to gift your love",
+      "descricao-card1": "The Heart Breakfast Basket, in addition to surprising, forms a complete meal for those you love. That's because it brings cake, chocolate milk, juice, instant coffee, cappuccino, bread, biscuits, cold cuts, fruits, cream cheese and chocolates.",
+
+      "titulo-card2": "Bouquet of 8 Champagne and Chocolate Roses",
+      "descricao-card2": "Sympathy, admiration and loyalty, these are the meanings that roses in champagne color bring. This bouquet, which comes with a box of chocolates, is perfect to offer your loved one in the most special moments.",
+
+      "titulo-card3": "Bouquet of 6 red roses and chocolates to give as a gift",
+      "descricao-card3": "Chocolates and Flowers are gifts that never go out of style. This beautiful medium-stemmed bouquet is made with 6 red roses wrapped in Ruscus, Tango and raffia finish; It also accompanies delicious Ferrero Rocher bonbons or similar.",
+
+      "titulo-card4": "Basket with Yellow and White Roses and Daisies",
+      "descricao-card4": "Giving a gift to someone important with a basket of roses and yellow and white daisies, like this one, makes you present at all important moments and dates, even if you live far away.",
+
+      "titulo-card5": "Coffee Basket with Chocolate and Luxury Flowers",
+      "descricao-cad5": "A delicious breakfast basket including various goodies. There are varieties of chocolate, Sonhos de Valsa bonbons, chocolate bars and a delicate flower arrangement.",
+      "textoTodosPrdutos": "All the products"
+      
+      
     }
 }

@@ -20,18 +20,7 @@ darkMode.addEventListener('click', () => {
     const navegacao = document.querySelector('.navegacao')  
     const lista_menuA = document.querySelectorAll('.lista-menu a')
     const linhaBanner = document.querySelector('.linha-banner')
-    const nomeBanner = document.querySelector('.sessao-banner div').className;
     
-    if(nomeBanner=='bannerIngles') {
-        const bannerImgIngles = document.querySelector('.bannerIngles');
-        bannerImgIngles.classList.toggle("dark");
-    } else if(nomeBanner=='banner-img') {
-        const bannerImg = document.querySelector('.banner-img');
-        bannerImg.classList.toggle("dark");
-        
-    }
-    
-
 
     lista_menuA.forEach(e=> {
         e.classList.toggle('dark')

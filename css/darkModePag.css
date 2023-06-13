@@ -72,19 +72,6 @@ body.dark {
     transition: 1s;
 }
 
-.banner-img.dark {
-    background-image: url(../img/imgBannerDark.png);
-}
-
-.bannerIngles.dark{
-    background-image: url(../img/BannerInglesDark.png);
-    transition: 1s;
-    transition: 1s;
-    width: 100%;
-    height: 347.64px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .destaqueBotao-comprar.dark {
     background-color: #000000;

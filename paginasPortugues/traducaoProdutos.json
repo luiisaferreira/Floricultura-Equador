@@ -1,0 +1,47 @@
+{
+    "pt-br": {
+      "textoAtendimento": "Atendimento de segunda a sexta",
+      "h1_floricultura": "Floricultura Equador",
+      "texto-departamento": "Departamento",
+      "menu_produtos": "Produtos",
+      "menu_ocasioes": "Ocasiões",
+      "menu_cestas": "Cestas",
+      "menu_promocoes": "Promoções",
+      "menu_box": "Box",
+
+      "menu_arranjo": "Arranjos",
+      "menu_buque": "Buquês",
+      "menu_buqueNoiva": "Buquê de Noivas",
+      "menu_complementos": "Complementos",
+      "menu_coroaFunibre": "Coroa Fúnibres",
+      "menu_decoracao": "Decoração",
+      "menu_ramalhetes": "Ramalhetes",
+
+      "diaNamorado": "Dias dos Namorados",
+      "casamento": "Casamento",
+      "aniversario": "Aniversário"
+    },
+    "en-us": {
+        "textoAtendimento": "Service from Monday to Friday",
+        "h1_floricultura": "Floriculture Equador",
+        "texto-departamento": "Departament",
+        "menu_produtos": "Products",
+        "menu_ocasioes": "Occasions",
+        "menu_cestas": "Baskets",
+        "menu_promocoes": "Promotions",
+        "menu_box": "Box",
+
+        "menu_arranjo": "Arrangements",
+        "menu_buque": "Bouquets",
+        "menu_buqueNoiva": "Bridal Bouquet",
+        "menu_complementos": "Complements",
+        "menu_coroaFunibre": "Funeral Wreath",
+        "menu_decoracao": "Decoration",
+        "menu_ramalhetes": "Posy",
+
+        "diaNamorado": "Valentine's Day",
+        "casamento": "Marriage",
+        "aniversario": "Birthday"
+
+    }
+}

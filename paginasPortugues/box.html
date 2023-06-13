@@ -96,11 +96,11 @@
     <!-- Cabeçalho do site -->
     <header>
         <div class="caixa-info">
-        <p class="textoAtendimento">Atendimento de segunda a sexta</p>
+        <p class="textoAtendimento" data-translate="textoAtendimento">Atendimento de segunda a sexta</p>
         <section class="informacoes">
             <div class="imagensBandeiras">
-            <img src="../img/2-bandeira-do-brasil 1.png">
-            <img src="../img/bandeira-estados-unidos 1.png">
+                <a id="portugueseButton"> <img src="../img/2-bandeira-do-brasil 1.png"></a>
+                <a id="englishButton"><img src="../img/bandeira-estados-unidos 1.png"></a>
             </div>
             <div class="botaoTextos">
             <button id="increase-font">A+</button>
@@ -123,7 +123,7 @@
         <div class="cabecalho">    
         <section class="logo">
             <a href="../index.html"><img src="../img/LogoFloricultura.png"></a>
-            <a href="../index.html" style="text-decoration: none;"><h1>Floricultura Equador</h1></a>
+            <a href="../index.html" style="text-decoration: none;"><h1 data-translate="h1_floricultura">Floricultura Equador</h1></a>
         </section>
     
         <section class="inputPesquisar">
@@ -142,10 +142,10 @@
     <!-- Menu de navegação global do site -->
     <nav class="navegacao">
         <ul class="menu">
-        <li class="lista-menu"><a href="produtos.html" class="listaHover">Produtos</a></li>
-        <li class="lista-menu"><a href="ocasioes.html" class="listaHover">Ocasiões</a></li>
-        <li class="lista-menu"><a href="cestas.html" class="listaHover">Cestas</a></li>
-        <li class="lista-menu"><a href="../index.html#promocaoProdutos" class="listaHover">Promoções</a></li>
+        <li class="lista-menu"><a href="produtos.html" class="listaHover" data-translate="menu_produtos">Produtos</a></li>
+        <li class="lista-menu"><a href="ocasioes.html" class="listaHover" data-translate="menu_ocasioes">Ocasiões</a></li>
+        <li class="lista-menu"><a href="cestas.html" class="listaHover" data-translate="menu_cestas">Cestas</a></li>
+        <li class="lista-menu"><a href="../index.html#promocaoProdutos" class="listaHover" data-translate="menu_promocoes">Promoções</a></li>
         <li class="lista-menu"><a href="box.html" class="listaMenuDark listaMenuLight">Box</a></li>
         </ul>
     </nav>
@@ -153,24 +153,24 @@
     <main>
         <section class="menuDepartamento">
             <div>
-                <p>Departamento</p>
+                <p data-translate="texto-departamento">Departamento</p>
             </div>
             <ul>
-                <li class="listaMenu-departamento"><a href="#Arranjo">Arranjo</a></li>
-                <li class="listaMenu-departamento"><a href="#buque">Buquês</a></li>
-                <li class="listaMenu-departamento"><a href="#buqueNoiva">Buquê Noivas</a></li>
-                <li class="listaMenu-departamento"><a href="#cestas">Cestas</a></li>
-                <li class="listaMenu-departamento"><a href="#complementos">Complementos</a></li>
-                <li class="listaMenu-departamento"><a href="#coroaFunibre">Coroa Fúnibres</a></li>
-                <li class="listaMenu-departamento"><a href="#decoracao">Decoração</a></li>
-                <li class="listaMenu-departamento"><a href="#ramalhete">Ramalhetes</a></li>
+                <li class="listaMenu-departamento"><a href="produtos.html#Arranjo" data-translate="menu_arranjo">Arranjo</a></li>
+                <li class="listaMenu-departamento"><a href="produtos.html#buque" data-translate="menu_buque">Buquês</a></li>
+                <li class="listaMenu-departamento"><a href="produtos.html#buqueNoiva" data-translate="menu_buqueNoiva">Buquê Noivas</a></li>
+                <li class="listaMenu-departamento"><a href="cestas.html#cestas" data-translate="menu_cestas">Cestas</a></li>
+                <li class="listaMenu-departamento"><a href="cestas.html#complementos" data-translate="menu_complementos">Complementos</a></li>
+                <li class="listaMenu-departamento"><a href="cestas.html#coroaFunibre" data-translate="menu_coroaFunibre">Coroa Fúnibres</a></li>
+                <li class="listaMenu-departamento"><a href="#decoracao" data-translate="menu_decoracao">Decoração</a></li>
+                <li class="listaMenu-departamento"><a href="#ramalhete" data-translate="menu_ramalhetes">Ramalhetes</a></li>
                 <li class="listaMenu-departamento"><a href="#box">Box</a></li>
             </ul>
         </section>
 
         <section class="secao-decoracao">
             <div class="titulo">
-                <p id="decoracao">Decoração</p>
+                <p id="decoracao" data-translate="menu_decoracao">Decoração</p>
                 <div class="linhaTexto-ocasioes"></div>
             </div>
 
@@ -209,7 +209,7 @@
 
         <section class="secao-ramalhetes">
             <div class="titulo">
-                <p id="ramalhete">Ramalhetes</p>
+                <p id="ramalhete" data-translate="menu_ramalhetes">Ramalhetes</p>
                 <div class="linhaTexto-ocasioes"></div>
             </div>
 
@@ -324,5 +324,7 @@
     <script src="../js/modoDarkProdutos.js"></script>
     <script src="https://kit.fontawesome.com/8df296b2be.js" crossorigin="anonymous"></script>
     <script src="../js/fontSizeProdutos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/tradutorProdutos.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ $(document).ready(function() {
     // Função para alternar o idioma do site
     function changeLanguage(language) {
       // Faz uma requisição AJAX para obter as traduções do arquivo JSON
-      $.getJSON('translations.json', function(data) {
+      $.getJSON('traducaoProdutos.json', function(data) {
         var translations = data[language]; // Obtém as traduções para o idioma selecionado
   
         // Itera sobre cada elemento com o atributo 'data-translate'
@@ -27,7 +27,6 @@ $(document).ready(function() {
       changeLanguage(currentLanguage); // Chama a função para atualizar as traduções
       $('#txtPesquisa').attr('placeholder', 'Find your product');
       $('.botaoCadastro').text("Register");
-      $('.banner-img').removeClass('banner-img').addClass('bannerIngles');
       $('.destaqueBotao-comprar').text('Buy now');
       $('.card-botaoComprar').text("Purchase");
       
@@ -39,7 +38,6 @@ $(document).ready(function() {
       changeLanguage(currentLanguage); // Chama a função para atualizar as traduções
       $('#txtPesquisa').attr('placeholder', 'Encontre seu produto');
       $('.botaoCadastro').text("Cadastre-se");
-      $('.bannerIngles').removeClass('bannerIngles').addClass('banner-img');
       $('.destaqueBotao-comprar').text('Comprar agora');
       $('.card-botaoComprar').text("Comprar");
     });
