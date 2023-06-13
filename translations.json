@@ -1,0 +1,20 @@
+{
+    "pt-br": {
+      "textoAtendimento": "Atendimento de segunda a sexta",
+      "h1_floricultura": "Floricultura Equador",
+      "menu_produtos": "Produtos",
+      "menu_ocasioes": "Ocasiões",
+      "menu_cestas": "Cestas",
+      "menu_promocoes": "Promoções",
+      "menu_box": "Box"
+    },
+    "en-us": {
+      "textoAtendimento": "Service from Monday to Friday",
+      "h1_floricultura": "Floriculture Equador",
+      "menu_produtos": "Products",
+      "menu_ocasioes": "Occasions",
+      "menu_cestas": "Baskets",
+      "menu_promocoes": "Promotions",
+      "menu_box": "Box"
+    }
+}

@@ -99,11 +99,11 @@
   <!-- Cabeçalho do site -->
   <header>
     <div class="caixa-info">
-      <p class="textoAtendimento">Atendimento de segunda a sexta</p>
+      <p class="textoAtendimento" data-translate="textoAtendimento">Atendimento de segunda a sexta</p>
       <section class="informacoes">
         <div class="imagensBandeiras">
-          <img src="img/2-bandeira-do-brasil 1.png">
-          <img src="img/bandeira-estados-unidos 1.png">
+          <a id="portugueseButton"><img src="img/2-bandeira-do-brasil 1.png"></a>
+          <a id="englishButton"><img src="img/bandeira-estados-unidos 1.png"></a>
         </div>
         <div class="botaoTextos">
           <button id="increase-font">A+</button>
@@ -126,11 +126,11 @@
     <div class="cabecalho">    
       <section class="logo">
         <a href="index.html"><img src="img/LogoFloricultura.png"></a>
-        <a href="index.html" style="text-decoration: none;"><h1>Floricultura Equador</h1></a>
+        <a href="index.html" style="text-decoration: none;"><h1 data-translate="h1_floricultura">Floricultura Equador</h1></a>
       </section>
   
       <section class="inputPesquisar">
-        <input type="text" id="txtPesquisa" placeholder="Encontre seu produto" />
+        <input type="text" id="txtPesquisa" data-translate="txtPesquisa" placeholder="Encontre seu produto" />
         <div class="caixaBotao">
           <img src="img/IconeLupa.png" id="btnPesquisa" alt="Pesquisar" />
         </div>
@@ -138,18 +138,18 @@
   
       <section class="botoesCabecalho">
         <button class="botaoLogin" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Login</button>
-        <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar">Cadastre-se</button>
+        <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar" data-translate="botaoCadastro">Cadastre-se</button>
       </section>
     </div>
   </header>
   <!-- Menu de navegação global do site -->
   <nav class="navegacao">
     <ul class="menu">
-      <li class="lista-menu"><a href="paginasPortugues/produtos.html">Produtos</a></li>
-      <li class="lista-menu"><a href="paginasPortugues/ocasioes.html">Ocasiões</a></li>
-      <li class="lista-menu"><a href="paginasPortugues/cestas.html">Cestas</a></li>
-      <li class="lista-menu"><a href="#promocaoProdutos">Promoções</a></li>
-      <li class="lista-menu"><a href="paginasPortugues/box.html">Box</a></li>
+      <li class="lista-menu"><a href="paginasPortugues/produtos.html" data-translate="menu_produtos">Produtos</a></li>
+      <li class="lista-menu"><a href="paginasPortugues/ocasioes.html" data-translate="menu_ocasioes">Ocasiões</a></li>
+      <li class="lista-menu"><a href="paginasPortugues/cestas.html" data-translate="menu_cestas">Cestas</a></li>
+      <li class="lista-menu"><a href="#promocaoProdutos" data-translate="menu_promocoes">Promoções</a></li>
+      <li class="lista-menu"><a href="paginasPortugues/box.html" data-translate="menu_box">Box</a></li>
     </ul>
   </nav>
   <!-- banner principal do site -->
@@ -158,8 +158,8 @@
       
     </div>
 
-    <div class="linha-banner">
-    </div>
+    <section class="linha-banner">
+    </section>
   </section>
   <!-- Sessão principal do site, onde irá conter as informações do produto -->
   <main>
@@ -311,6 +311,8 @@
   </script>
   <script src="js/modoDarkPrincipal.js"></script>
   <script src="js/fontSize.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/tradutor.js"></script>
   <!-- <script src="https://kit.fontawesome.com/8df296b2be.js" crossorigin="anonymous"></script> -->
 </body>
 

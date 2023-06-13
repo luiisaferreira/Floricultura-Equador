@@ -1,9 +1,17 @@
-.banner-img{
+.esp-banner, .banner-img, .bannerIngles, .bannerInglesDark, .banner-imgDark {
     width: 100%;
     height: 347.64px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.banner-img{
     background-image: url("../img/imagemBannerPrincipal.png");
+    transition: 1s;
+}
+
+.bannerIngles {
+    background-image: url("../img/BannerIngles.png");
     transition: 1s;
 }
 
