@@ -26,7 +26,11 @@
       "labelNomePresenteado": "Nome do presenteado",
       "labelMensagemPresente": "Mensagem do presente",
       "quantidade": "Quantidade",
-      "textoProdutoTalvezGoste": "mais produtos que talvez você goste"
+      "textoProdutoTalvezGoste": "mais produtos que talvez você goste",
+
+  
+      "seuCarrinho": "Seu Carrinho",
+      "descricaoProdutoCarrinho": "O arranjo que vai arrebatar o seu coração! Envie sua mensagem de carinho através da beleza e perfume das flores! Contendo um ...."
     },
     "en-us": {
         "textoAtendimento": "Service from Monday to Friday",
@@ -55,7 +59,10 @@
         "labelNomePresenteado": "Recipient's name",
         "labelMensagemPresente": "Gift message",
         "quantidade": "Amounts",
-        "textoProdutoTalvezGoste": "More Products you may like"
+        "textoProdutoTalvezGoste": "More Products you may like",
+
+        "seuCarrinho": "Your Cart",
+        "descricaoProdutoCarrinho": "The arrangement that will snatch your heart! Send your message of affection through the beauty and perfume of flowers! Containing a...."
 
 
     }

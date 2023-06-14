@@ -29,6 +29,7 @@ $(document).ready(function() {
       $('.botaoCadastro').text("Register");
       $('.destaqueBotao-comprar').text('Buy now');
       $('.card-botaoComprar').text("Purchase");
+      $('.botaoFinalizarCompra').text("Finalize Purchase");
       
     });
   
@@ -40,6 +41,7 @@ $(document).ready(function() {
       $('.botaoCadastro').text("Cadastre-se");
       $('.destaqueBotao-comprar').text('Comprar agora');
       $('.card-botaoComprar').text("Comprar");
+      $('.botaoFinalizarCompra').text("Finalizar Compra");
     });
   });
   

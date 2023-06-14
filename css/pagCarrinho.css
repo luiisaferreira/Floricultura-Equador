@@ -1,0 +1,151 @@
+.caixa-carrinho {
+    margin-left: 210px;
+    margin-top: 20px;
+    width: 1100px;
+    background-color: #F5E8E8;
+    height: 640px;
+}
+
+.caixa-carrinho.dark{
+    background-color: #373737;
+}
+.linha-carrinho {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.checkCarrinho {
+    width: 24px;
+    height: 24px;
+    margin-left: 60px;
+    border: none;
+}
+
+.linha-carrinho img {
+    margin-left: 70px;
+    width: 120px;
+    height: 80px;
+}
+
+.tituloProdutoCarrinho {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FD7600;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.tituloProdutoCarrinho.dark {
+    color: #000000;
+}
+
+.descricaoProdutoCarrinho {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;    
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.caixa-preco {
+    display: flex;
+    align-items: center;
+}
+
+.precoProdutoCarrinho {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FD7600;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.precoProdutoCarrinho.dark {
+    color: #000000;
+}
+
+.botaoInputNumber {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputNumberCarrinho {
+    color: #F24405;
+    background-color: #ffffff;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.inputNumberCarrinho.dark {
+    color: #000000;
+}
+
+.botaoMenosCarrinho, .botaoMaisCarrinho{
+    color: #F24405;
+    background-color: #D9D9D9;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.botaoMenosCarrinho.dark {
+    color: #000000;
+}
+
+.botaoMaisCarrinho.dark {
+    color: #000000;
+}
+
+.caixa-quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin-left: 100px;
+}
+.quantidadeCarrinho {
+    color: #FD7600;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase ;
+    text-align: center;
+}
+
+.quantidadeCarrinho.dark {
+    color: #ffffff;
+}
+
+.botaoFinalizarCompra {
+    border: none;
+    background-color: #FD7600;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    float: right;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 100px;
+}
+
+.botaoFinalizarCompra.dark {
+    background-color: #1E1E1E;
+}
