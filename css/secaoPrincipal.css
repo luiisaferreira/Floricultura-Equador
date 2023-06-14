@@ -151,3 +151,7 @@
     margin-right: 10px;
     cursor: pointer;
 }
+
+.produtosImagens img:hover {
+    filter: blur(4px);
+}

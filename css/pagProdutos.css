@@ -95,3 +95,7 @@
     height: 200px;
     margin-right: 20px;
 }
+
+.gridColuna img:hover{
+    filter: blur(4px);
+}
