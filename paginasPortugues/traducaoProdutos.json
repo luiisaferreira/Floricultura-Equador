@@ -19,7 +19,14 @@
 
       "diaNamorado": "Dias dos Namorados",
       "casamento": "Casamento",
-      "aniversario": "Aniversário"
+      "aniversario": "Aniversário",
+
+      "textoArranjo": "Arranjo Selvagem",
+      "descricao-detalhe": "O arranjo que vai arrebatar o seu coração! Envie sua mensagem de carinho através da beleza e perfume das flores! Contendo um vaso com cerca de 5 tipos diferentes de plantas e 55 hastes de flores e folhagem.",
+      "labelNomePresenteado": "Nome do presenteado",
+      "labelMensagemPresente": "Mensagem do presente",
+      "quantidade": "Quantidade",
+      "textoProdutoTalvezGoste": "mais produtos que talvez você goste"
     },
     "en-us": {
         "textoAtendimento": "Service from Monday to Friday",
@@ -41,7 +48,15 @@
 
         "diaNamorado": "Valentine's Day",
         "casamento": "Marriage",
-        "aniversario": "Birthday"
+        "aniversario": "Birthday",
+        
+        "textoArranjo": "Wild Arrangement",
+        "descricao-detalhe": "The arrangement that will snatch your heart! Send your message of affection through the beauty and perfume of flowers! Containing a vase with about 5 different types of plants and 55 flower stalks and foliage.",
+        "labelNomePresenteado": "Recipient's name",
+        "labelMensagemPresente": "Gift message",
+        "quantidade": "Amounts",
+        "textoProdutoTalvezGoste": "More Products you may like"
+
 
     }
 }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floricultura Equador</title>
+    <!-- Importanto as fontes utilizadas  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Book+Basic" 4 />
+    <!-- Importando o bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- Importando os estilos CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <!-- Modal de cadastro do usuário -->
+    <div class="modal fade" id="modalCadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="modal-botaoFechar" data-bs-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <h1>Cadastre-se</h1>
+            <p>Já possui cadastro? <a id="facaLogin">Faça seu login</a></p>
+            <form class="formularioCadastro">
+            <input type="text" id="inputNome" placeholder="Nome" />
+            <input type="email" id="inputEmail" placeholder="Email" />
+            <input type="password" id="inputSenha" placeholder="Senha" minlength="6" />
+            <div class="caixaCheck">
+                <input type="checkbox" id="checkboxSenha" />
+                <label for="checkboxSenha">Mostrar Senha</label>
+            </div>
+            <input type="submit" id="inputEnviarCadastro" value="Cadastre-se">
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal de login do usuário -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content modal-caixaGeral">
+        <div class="modal-caixaApresentacao">
+            <div class="apresentacao-logotipo">
+            <img src="../img/LogoFloricultura.png">
+            <h1>Floricultura Equador</h1>
+            </div>
+            <div class="apresentacao-texto">
+            <h2>Bem vindo</h2>
+            <p>Faça login para continuar acessando a página</p>
+            </div>
+            <div class="apresentacao-rodape">
+            <div></div>
+            <p>www.floriculturaequador</p>
+            </div>
+        </div>
+        <div class="modal-caixaLogin">
+            <div class="login-header">
+            <h1>Login</h1>
+            <img src="../img/IconeSegurança.png">
+            </div>
+            <form class="formularioLogin">
+            <input type="email" id="loginEmail" placeholder="Email" />
+            <input type="password" id="loginSenha" placeholder="Senha" minlength="6"/>
+            <a id="esqueceuSenha">Esqueceu a sua senha?</a>
+            <input type="submit" id="inputEnviarLogin" value="Login" />
+            </form>
+            <p id="textoConectarRede">Conectar pelas redes sociais</p>
+            <div class="botoesFormaLogin">
+            <button class="botaoGoogle">
+                <div><img src="../img/IconeLoginGoogle.png"></div>
+                Entre com o google
+            </button>
+            <button class="botaoFacebook">
+                <div><img src="../img/IconeLoginFace.png"></div>
+                Entre com o Facebook
+            </button>
+            </div>
+            <a id="textoCriarConta">Criar uma conta</a>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="caixa-info">
+        <p class="textoAtendimento" data-translate="textoAtendimento">Atendimento de segunda a sexta</p>
+        <section class="informacoes">
+            <div class="imagensBandeiras">
+                <a id="portugueseButton"> <img src="../img/2-bandeira-do-brasil 1.png"></a>
+                <a id="englishButton"><img src="../img/bandeira-estados-unidos 1.png"></a>
+            </div>
+            <div class="botaoTextos">
+            <button id="increase-font">A+</button>
+            <button id="decrease-font">A-</button>
+            </div>
+            <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <div class="ball">
+                <i class="fa-solid fa-sun fa-xs" id="modoDark"></i>
+                </div>
+            </label>
+            </div>
+            <div class="iconeCarrinhoHeader">
+            <img src="../img/icon/carrinho.svg">
+            </div>
+        </section>
+        </div>
+
+        <div class="cabecalho">    
+        <section class="logo">
+            <a href="../index.html"><img src="../img/LogoFloricultura.png"></a>
+            <a href="../index.html" style="text-decoration: none;"><h1 data-translate="h1_floricultura">Floricultura Equador</h1></a>
+        </section>
+    
+        <section class="inputPesquisar">
+            <input type="text" id="txtPesquisa" placeholder="Encontre seu produto" />
+            <div class="caixaBotao">
+            <img src="../img/IconeLupa.png" id="btnPesquisa" alt="Pesquisar" />
+            </div>
+        </section>
+    
+        <section class="botoesCabecalho">
+            <button class="botaoLogin" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Login</button>
+            <button class="botaoCadastro" data-bs-toggle="modal" data-bs-target="#modalCadastrar">Cadastre-se</button>
+        </section>
+        </div>
+    </header>
+
+    <!-- Menu de navegação global do site -->
+    <nav class="navegacao">
+        <ul class="menu">
+        <li class="lista-menu"><a href="produtos.html" class="listaHover" data-translate="menu_produtos">Produtos</a></li>
+        <li class="lista-menu"><a href="ocasioes.html" class="listaHover" data-translate="menu_ocasioes">Ocasiões</a></li>
+        <li class="lista-menu"><a href="cestas.html" class="listaHover" data-translate="menu_cestas">Cestas</a></li>
+        <li class="lista-menu"><a href="../index.html#promocaoProdutos" class="listaHover" data-translate="menu_promocoes">Promoções</a></li>
+        <li class="lista-menu"><a href="box.html" class="listaHover">Box</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção principal do site -->
+    <main>
+        <section class="secao-detalhes">
+            <div class="textoDetalhe">
+                <p data-translate="textoArranjo">Arranjo Selvagem</p>
+                <div class="linhaTexto-detalhe"></div>
+            </div>
+            <div class="detalheProduto">
+                <img src="../img/Rectangle 62.png">
+
+                <div class="caixa-compra">
+                    <p id="precoProduto">R$ 306,85</p>
+
+                    <p id="descricao-detalhe" data-translate="descricao-detalhe">O arranjo que vai arrebatar o seu coração! Envie sua mensagem de carinho através da beleza e perfume das flores! Contendo um vaso com cerca de 5 tipos diferentes de plantas e 55 hastes de flores e folhagem.</p>
+
+                    <form class="formulario-produto">
+                        <label data-translate="labelNomePresenteado">Nome do presenteado</label>
+                        <input id="inputNomePresenteado" type="text">
+
+                        <label data-translate="labelMensagemPresente">Mensagem do presente</label>
+                        <input id="inputMensagem"type="text">
+                        
+                        <p id="quantidade" data-translate="quantidade">Quantidade</p>
+                        <div class="botoesCompra">
+                            <div class="touchspin">
+                                <button type="button"  class="botaoMenos"data-touchspin-down>-</button>
+                                <input type="number"  class="inputNumber" data-touchspin-input style="text-align: center" min="0" value="0">
+                                <button type="button" class="botaoMais" data-touchspin-up>+</button>
+                            </div>
+                            <button class="botaoCarrinho">
+                                <img src="../img/IconeCarrinho.png">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="secao-talvezGoste">
+            <div class="textoDetalhe">
+                <p data-translate="textoProdutoTalvezGoste">mais produtos que talvez você goste</p>
+                <div class="linhaTexto-detalhe"></div>
+            </div>
+
+            <div class="imagensSecaoTalvezGoste">
+                <div class="gridLinha">
+                    <div class="gridColuna">
+                        <img src="../img/Buque3.png">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/Arranjo6.png">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/caminho de mesa 3.jpg">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/BuqueNoiva5.png">
+                    </div>
+
+                </div>
+
+                <div class="gridLinha">
+                    <div class="gridColuna">
+                        <img src="../img/imgBuquêChampagne.png">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/box tropical 2.jpeg">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/Buque6.png">
+                    </div>
+
+                    <div class="gridColuna">
+                        <img src="../img/imgComp5.png">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Rodapé do website -->
+    <footer class="rodape">
+        <div class="iconeTelefone">
+        <img src="../img/iconeTelefone.png">
+        <p>3030-2543</p>
+        </div>
+        <div class="iconeWhats">
+        <img src="../img/iconeWhatsapp.png">
+        <p>(81) 99847-3645</p>
+        </div>
+        <div class="iconeInstagram">
+        <img src="../img/iconeInstagram.png">
+        <p>floricultura_equador</p>
+        </div>
+    </footer>
+
+    <!-- Importação do Script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../js/modoDarkDetalhes.js"></script>
+    <script src="https://kit.fontawesome.com/8df296b2be.js" crossorigin="anonymous"></script>
+    <script src="../js/fontSizeProdutos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../js/tradutorProdutos.js"></script>
+</body>
+</html>

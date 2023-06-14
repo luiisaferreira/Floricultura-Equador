@@ -1,0 +1,162 @@
+.textoDetalhe {
+    display: flex;
+    flex-direction:column;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+
+.textoDetalhe p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 24px;
+    color: #FD7600;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.textoDetalhe p.dark {
+    color:#ffffff;
+}
+
+.linhaTexto-detalhe {
+    width: 1100px;
+    height: 0px;
+    border: 2px solid #F27405;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.linhaTexto-detalhe.dark {
+    border: 2px solid #373737;
+
+}
+
+.detalheProduto{ 
+    margin-left: 220px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.caixa-compra {
+    width: 338px;
+    height: 455px;
+    margin-right: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+#precoProduto{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#descricao-detalhe {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 328px;
+    height: 120px;
+    text-align: justify;
+}
+
+.formulario-produto label {
+    color: #FD7600;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.formulario-produto label.dark {
+    color:#ffffff;
+}
+
+#inputMensagem, #inputNomePresenteado{
+    border: 1px solid #FD7600;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 250px;
+    height: 31px;
+    padding-left: 5px;
+}
+
+#inputNomePresenteado.dark {
+    background-color: #ffffff;
+    border:none;
+}
+
+#inputMensagem.dark {
+    background-color: #ffffff;
+    border:none;
+}
+
+#quantidade {
+    margin-top: 30px;
+    color: #FD7600;
+    font-size: 12px;
+    width: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#quantidade.dark {
+    color:#ffffff;
+}
+.botoesCompra {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.touchspin {
+    display: flex;
+    
+}
+
+.botaoMenos, .botaoMais{
+    color: #F24405;
+    background-color: #D9D9D9;
+    border: none;
+    width: 38px;
+    height: 41px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.botaoMenos.dark {
+    color: #000000;
+}
+
+.botaoMais.dark {
+    color: #000000;
+}
+.inputNumber {
+    border: 1px solid #D9D9D9;
+    width: 100px;
+    height: 41px;
+}
+
+.inputNumber.dark {
+    background-color: #ffffff;
+}
+.botaoCarrinho {
+    margin-left: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F24405;
+    width: 80px;
+    height: 41px;
+
+}
+
+.botaoCarrinho.dark {
+    background-color: #000000;
+}
+
+.imagensSecaoTalvezGoste {
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
