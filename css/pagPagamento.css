@@ -1,0 +1,221 @@
+.secao-resumoCompra {
+    float: right;
+    margin-top: 80px;
+    margin-right: 30px;
+    width: 400px;
+    height: 550px;
+    background-color: #F5E8E8;
+}
+
+.textoResumoCompra {
+    background: rgba(255, 119, 0, 0.67);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoResumoCompra p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #B43000;
+}
+
+.caixaItens-resumoCompra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.linhaItens-resumoCompra {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linhaItens-resumoCompra img {
+    margin-left: 20px;
+    width: 80px;
+    height: 60px;
+}
+
+.quantidadeItens {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+}
+.quantidadeItens p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #FD7600;
+}
+
+#textoQuantidade-resumoCompra {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FD7600;
+
+}
+.quantidadeItens input {
+    width: 50px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    color: #FD7600;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.textoPreco-resumoCompra {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.caixaPreco-resumoCompra {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixaPreco-resumoCompra  p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.secao-pagamento {
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.textoPagamento p {
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-size: 24px;
+    color: #FD7600;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.linhaTexto-pagamento {
+    width: 700px;
+    height: 0px;
+    border: 2px solid #F27405;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.formulario-dadosPagamento {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+
+.caixa-entrega {
+    margin-top: 30px;
+}
+
+.formulario-entregaPagamento {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    
+}
+
+.caixa-linhaPagamento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario-dadosPagamento div, .formulario-entregaPagamento div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario-dadosPagamento label, .formulario-entregaPagamento label {
+    color: #FD7600;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.formulario-dadosPagamento input, .formulario-entregaPagamento input{
+    border: 1px solid #FD7600;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 31px;
+}
+
+#dataPagamento {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caixa-formasPagamento {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.formasPagamento-itens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixaRadio-pagamento {
+    width: 125px;
+    height: 30px;
+    border: 1px solid #FD7600;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixaRadio-pagamento img {
+    width: 15px;
+    height: 15px;
+}
+
+.caixaRadio-pagamento p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+    color: #FD7600;
+}
+
+#finalizarCompra-formasPagamento {
+    border: none;
+    background-color: #F24405;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
